@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   resources :movements
   resources :mantras
-  resources :focuseds
-  resources :focus
+  # resources :focuseds
+  # resources :focus
   resources :reviews
   resources :users
   resources :meditations
