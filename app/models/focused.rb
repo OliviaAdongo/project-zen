@@ -1,2 +1,0 @@
-class Focused < ApplicationRecord
-end

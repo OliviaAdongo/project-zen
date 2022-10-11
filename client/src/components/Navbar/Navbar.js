@@ -16,13 +16,6 @@ function Navbar() {
     Mindfulness
     </NavLink>
     </li>
-
-    <li>
-    <NavLink to ="/focus">
-    Focused
-    </NavLink>
-    </li>
-
     <li>
     <NavLink to ="/movement">
     Movement

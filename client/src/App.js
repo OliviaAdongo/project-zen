@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Focused from './components/Focused';
 import Mantra from './components/Mantra';
 import Meditation from './components/Meditation';
 import Mindfulness from './components/Mindfulness';
@@ -15,7 +14,6 @@ function App() {
 
           <Route path="/" element={<Meditation/>}/>
           <Route path="/mind" element={<Mindfulness/>}/>
-          <Route path="/focus" element={<Focused/> }/>
           <Route path="/movement" element={<Movement/> }/>
           <Route path="/mantra" element={<Mantra/> }/>
 
