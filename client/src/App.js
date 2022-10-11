@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Focused from './components/Focused';
+import Mantra from './components/Mantra';
+import Meditation from './components/Meditation';
+import Mindfulness from './components/Mindfulness';
+import Movement from './components/Movement';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar/>
+          <Routes>
+
+          <Route path="/" element={<Meditation/>}/>
+          <Route path="/mind" element={<Mindfulness/>}/>
+          <Route path="/focus" element={<Focused/> }/>
+          <Route path="/movement" element={<Movement/> }/>
+          <Route path="/mantra" element={<Mantra/> }/>
+
+          </Routes>
+    </Router>
   );
 }
 

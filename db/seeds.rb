@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Meditation.create(imgurl:"", category:"", description:"")
+Meditation.create(imgurl:"", category:"", description:"")
+Meditation.create(imgurl:"", category:"", description:"")
+Meditation.create(imgurl:"", category:"", description:"")
+
