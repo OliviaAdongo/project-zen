@@ -5,7 +5,7 @@ import Mantra from './components/Mantra';
 import Meditation from './components/Meditation';
 import Mindfulness from './components/Mindfulness';
 import Movement from './components/Movement';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (

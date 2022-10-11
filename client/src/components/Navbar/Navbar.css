@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #353d2f;
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-size: 1.2rem;
+    font-weight: bold;
+} 
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    padding: 8px 25px;
+    transition: all .5s  ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+}
+button:active{
+    background-color: #ffbf00;
+}
