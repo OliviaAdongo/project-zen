@@ -1,2 +1,0 @@
-class Meditation < ApplicationRecord
-end
